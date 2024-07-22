@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(8, 93, 69);
+    font-family: Garamond;
+    text-align:center;
+    font-size: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+h1 {
+    color: white;
+    /* font-family: super-dessert; */
+    font-size:2em;
+    }
+  
+h2 {
+    color: white;
+    /* font-family: spaceton; */
+    font-size:1.5em;
+    }
+  
+h3 {
+    color: DarkSlateBlue;
+    /* font-family: spaceton; */
+    font-style: italic;
+    font-size:1.5em;
+    }
+  
+  p {
+    color: white;
+    /* font-family: huglove; */
+    font-size:1em;
+    }
