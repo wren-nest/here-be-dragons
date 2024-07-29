@@ -113,14 +113,21 @@ code {<br>
 /* Nav bar */<br>
 ul {<br>
     list-style-type: none;<br>
-    margin: 5%;<br>
-    padding: 5%;<br>
+    margin: 0;<br>
+    padding: 0;<br>
+    width: 80%;<br>
     overflow: hidden;<br>
-    background-color: rgb(74, 74, 74);<br>
+    border: 1px solid rgb(41, 28, 48);<br>
+    background-color: rgb(41, 28, 48);<br>
   }<br><br>
   
-li {<br>
+  li {<br>
     float: left;<br>
+    border-right:1px solid rgb(8, 93, 69);<br>
+  }<br><br>
+  
+  li:last-child {<br>
+    border-right: none;<br>
   }<br><br>
   
 li a {<br>
