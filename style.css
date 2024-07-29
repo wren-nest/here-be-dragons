@@ -131,10 +131,11 @@ li a {
 li a:hover {
     background-color: rgb(198, 153, 55);
     color: rgb(41, 28, 48);
-    border-right:1px solid rgb(41, 28, 48);
+    border:1px solid rgb(41, 28, 48);
   }
   
 .active {
     background-color: rgb(198, 153, 55);
     color: rgb(41, 28, 48);
+    border:1px solid rgb(41, 28, 48);
     }
