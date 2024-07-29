@@ -1,3 +1,4 @@
+/* Fonts  */
 @font-face {
     font-family: "leander"; 
     src: url("https://wren-nest.github.io/here-be-dragons/fonts/Leander.ttf") format("truetype");
@@ -12,6 +13,7 @@
     font-style: normal;
 }
 
+/* Content */
 body {
     background-color: rgb(8, 93, 69);
     font-family: garamond;
@@ -49,3 +51,37 @@ p {
 img {
         width: 100%;
     }
+
+/* Split */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: #111;
+  }
+  
+  .right {
+    right: 0;
+    background-color: red;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
