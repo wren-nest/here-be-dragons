@@ -13,9 +13,10 @@
     font-style: normal;
 }
 
-/* Content */
+/* Sections */
 body {
     background-color: rgb(8, 93, 69);
+    color: rgb(198, 153, 55);
     font-family: garamond;
     text-align:center;
     font-size: 100%;
@@ -23,8 +24,16 @@ body {
     margin-right: 5%;
     }
 
+.header {
+    background-color: rgb(198, 153, 55);
+    color: rgb(41, 28, 48);
+    height: 10%;
+    width: 80%;
+}
+
+/* Content */
 h1 {
-    color: white;
+    color: rgb(41, 28, 48);
     font-family: romanantique;
     font-size:2em;
     }
@@ -58,6 +67,14 @@ iframe {
     border:none;
 }
 
+code {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-family: monospace;
+    text-align:left;
+    font-size: 100%;
+}
+
 /* Split */
 .split {
     height: 100%;
@@ -69,21 +86,13 @@ iframe {
     padding-top: 20px;
   }
   
-  .left {
+.left {
     left: 0;
     background-color: rgb(8, 93, 69);
   }
   
-  .right {
+.right {
     right: 0;
     background-color: rgb(74, 74, 74);
-  }
-  
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
   }
   
