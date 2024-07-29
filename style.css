@@ -40,8 +40,12 @@ h3 {
     font-size:1.5em;
     }
   
-  p {
+p {
     color: white;
     font-family: leander;
     font-size:1em;
+    }
+
+img {
+        width: 100%;
     }
