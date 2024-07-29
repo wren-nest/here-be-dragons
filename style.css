@@ -102,8 +102,8 @@ code {
 /* Nav bar */
 ul {
     list-style-type: none;
-    margin: 5%;
-    padding: 5%;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: rgb(74, 74, 74);
   }
@@ -123,6 +123,7 @@ li a {
   
 li a:hover {
     background-color: rgb(198, 153, 55);
+    color: rgb(41, 28, 48);
   }
   
 .active {
