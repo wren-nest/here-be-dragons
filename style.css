@@ -29,7 +29,8 @@ body {
     color: rgb(41, 28, 48);
     text-align: center;
     margin: auto;
-    height: 10%;
+    height: auto;
+    padding: 5%;
     width: 80%;
 }
 
