@@ -13,27 +13,6 @@
     font-style: normal;
 }
 
-/* Sections */
-body {
-    background-color: rgb(8, 93, 69);
-    color: rgb(198, 153, 55);
-    font-family: garamond;
-    text-align:center;
-    font-size: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-    }
-
-.header {
-    background-color: rgb(198, 153, 55);
-    color: rgb(41, 28, 48);
-    text-align: center;
-    margin: auto;
-    height: auto;
-    padding: 2%;
-    width: 80%;
-}
-
 /* Content */
 h1 {
     color: rgb(41, 28, 48);
@@ -64,12 +43,6 @@ img {
         width: 100%;
     }
 
-iframe {
-    height:100%;
-    width:100%;
-    border:none;
-}
-
 code {
     background-color: rgb(74, 74, 74);
     color: white;
@@ -77,27 +50,6 @@ code {
     text-align:left;
     font-size: 100%;
 }
-
-/* Split */
-.split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-.left {
-    left: 0;
-    background-color: rgb(8, 93, 69);
-  }
-  
-.right {
-    right: 0;
-    background-color: rgb(74, 74, 74);
-  }
 
 /* Nav bar */
 ul {
@@ -139,3 +91,37 @@ li a:hover {
     color: rgb(41, 28, 48);
     border:1px solid rgb(41, 28, 48);
     }
+
+/* Sections */
+body {
+  background-color: rgb(8, 93, 69);
+  color: rgb(198, 153, 55);
+  font-family: garamond;
+  text-align:center;
+  font-size: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+
+.header {
+  background-color: rgb(198, 153, 55);
+  color: rgb(41, 28, 48);
+  text-align: center;
+  margin: auto;
+  height: auto;
+  padding: 2%;
+  width: 80%;
+}
+
+.code {
+  background-color: rgb(74, 74, 74);
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(8, 93, 69);
+}
+
