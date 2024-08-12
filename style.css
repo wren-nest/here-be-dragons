@@ -40,8 +40,9 @@ p {
     }
 
 img {
-    width: auto;      
-    height: 100%;
+    width: 80%;      
+    height: auto;
+    align-self: auto;
     }
 
 code {
@@ -160,10 +161,8 @@ body {
   background-color: rgb(74, 74, 74);
   color: rgb(255, 255, 255);
   text-align: left;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-right: 1.5em;
-  margin-left: 1.5em;
+  height: auto;
+  width: 100%;
 }
 
 .flex-container {
