@@ -17,7 +17,7 @@
 h1 {
     color: rgb(41, 28, 48);
     font-family: romanantique;
-    font-size:2em;
+    font-size:6em;
     }
   
 h2 {
@@ -48,7 +48,7 @@ code {
     color: white;
     font-family: monospace;
     text-align:left;
-    font-size: 100%;
+    font-size: 0.5em;
 }
 
 /* Nav bar */
