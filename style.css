@@ -22,13 +22,13 @@ h1 {
   
 h2 {
     color: white;
-    /* font-family: spaceton; */
+    font-family: romanantique;
     font-size:1.5em;
     }
   
 h3 {
     color: white;
-    /* font-family: spaceton; */
+    font-family: romanantique;
     font-style: italic;
     font-size:1.5em;
     }
@@ -151,9 +151,12 @@ body {
   background-color: rgb(198, 153, 55);
   color: rgb(41, 28, 48);
   text-align: center;
-  margin: auto;
+  margin-top: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1em;
   height: auto;
-  padding: 2%;
+  padding: 1em;
   width: 80%;
 }
 
@@ -164,7 +167,11 @@ body {
   align-self: auto;
   height: auto;
   width: 80%;
-  border: 1em;
+  padding: 1em;
+  margin-top: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1em;
 }
 
 .flex-container {
