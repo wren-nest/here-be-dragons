@@ -52,7 +52,49 @@ code {
 }
 
 /* Nav bar */
-ul {
+
+#home {
+  background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/home.png');
+  width: 320px;
+  height: 240px;
+}
+
+#home:hover {
+  background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/home-blank.png');
+}
+
+#gallery {
+  background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/gallery.png');
+  width: 320px;
+  height: 240px;
+}
+
+#gallery:hover {
+  background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/gallery-blank.png');
+}
+
+#style-sheet {
+  background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/style-sheet.png');
+  width: 320px;
+  height: 240px;
+}
+
+#style-sheet:hover {
+  background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/style-sheet-blank.png');
+}
+
+#repository {
+  background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/repository.png');
+  width: 320px;
+  height: 240px;
+}
+
+#repository:hover {
+  background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/repository-blank.png');
+}
+
+/* Old nav bar */
+/* ul {
     list-style-type: none;
     margin: 0;
     width: 100%;
@@ -90,7 +132,7 @@ li a:hover {
     background-color: rgb(198, 153, 55);
     color: rgb(41, 28, 48);
     border:1px solid rgb(41, 28, 48);
-    }
+    } */
 
 /* Sections */
 body {
