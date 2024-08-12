@@ -10,184 +10,194 @@
 
 	
 <body>
-<div class="code"><code>
-    /* Fonts  */<br>
-    @font-face {<br>
-        font-family: "leander"; <br>
-        src: url("https://wren-nest.github.io/here-be-dragons/fonts/Leander.ttf") format("truetype");<br>
-        font-weight: 100;<br>
-        font-style: normal;<br>
-    }<br><br>
+<div class="code"><code><pre>
+  /* Fonts  */
+  @font-face {
+      font-family: "leander"; 
+      src: url("https://wren-nest.github.io/here-be-dragons/fonts/Leander.ttf") format("truetype");
+      font-weight: 100;
+      font-style: normal;
+  }
+  
+  @font-face {
+      font-family: "romanantique"; 
+      src: url("https://wren-nest.github.io/here-be-dragons/fonts/RomanAntique.ttf") format("truetype");
+      font-weight: 100;
+      font-style: normal;
+  }
+  
+  /* Content */
+  h1 {
+      color: rgb(41, 28, 48);
+      font-family: romanantique;
+      font-size:6em;
+      }
     
-    @font-face {<br>
-        font-family: "romanantique"; <br>
-        src: url("https://wren-nest.github.io/here-be-dragons/fonts/RomanAntique.ttf") format("truetype");<br>
-        font-weight: 100;<br>
-        font-style: normal;<br>
-    }<br><br>
+  h2 {
+      color: white;
+      font-family: romanantique;
+      font-size:1.5em;
+      }
     
-    /* Content */<br>
-    h1 {<br>
-        color: rgb(41, 28, 48);<br>
-        font-family: romanantique;<br>
-        font-size:2em;<br>
-        }<br><br>
-      
-    h2 {<br>
-        color: white;<br>
-        /* font-family: spaceton; */<br>
-        font-size:1.5em;<br>
-        }<br><br>
-      
-    h3 {<br>
-        color: white;<br>
-        /* font-family: spaceton; */<br>
-        font-style: italic;<br>
-        font-size:1.5em;<br>
-        }<br><br>
-      
-    p {<br>
-        color: white;<br>
-        font-family: leander;<br>
-        font-size:1em;<br>
-        }<br><br>
+  h3 {
+      color: white;
+      font-family: romanantique;
+      font-style: italic;
+      font-size:1.5em;
+      }
     
-    img {<br>
-            width: 100%;<br>
-        }<br><br>
-    
-    code {<br>
-        background-color: rgb(74, 74, 74);<br>
-        color: white;<br>
-        font-family: monospace;<br>
-        text-align:left;<br>
-        font-size: 100%;<br>
-    }<br><br>
-    
-    /* Nav bar */<br>
-    #home {<br>
-      background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/home.png');<br>
-      width: 320px;<br>
-      height: 240px;<br>
-    }<br><br>
-    
-    #home:hover {<br>
-      background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/home-blank.png');<br>
-    }<br>
-    
-    #gallery {<br>
-      background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/gallery.png');<br>
-      width: 320px;<br>
-      height: 240px;<br>
-    }<br><br>
-    
-    #gallery:hover {<br>
-      background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/gallery-blank.png');<br>
-    }<br><br>
-    
-    #style-sheet {<br>
-      background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/style-sheet.png');<br>
-      width: 320px;<br>
-      height: 240px;<br>
-    }<br><br>
-    
-    #style-sheet:hover {<br>
-      background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/style-sheet-blank.png');<br>
-    }<br><br>
-    
-    #repository {<br>
-      background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/repository.png');<br>
-      width: 320px;<br>
-      height: 240px;<br>
-    }<br><br>
-    
-    #repository:hover {<br>
-      background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/repository-blank.png');<br>
-    }<br><br>
-    
-    /* Old nav bar */<br>
-    /* ul {<br>
-        list-style-type: none;<br>
-        margin: 0;<br>
-        width: 100%;<br>
-        padding: 0;<br>
-        overflow: hidden;<br>
-        border: 1px solid rgb(41, 28, 48);<br>
-        background-color: rgb(41, 28, 48);<br>
-      }<br><br>
-      
-      li {<br>
-        float: left;<br>
-        border-right:1px solid rgb(198, 153, 55);<br>
-      }<br><br>
-      
-      li:last-child {<br>
-        border-right: none;<br>
-      }<br><br>
-      
-    li a {<br>
-        display: block;<br>
-        color: rgb(198, 153, 55);<br>
-        text-align: center;<br>
-        padding: 14px 16px;<br>
-        text-decoration: none;<br>
-        background-color: rgb(41, 28, 48);<br>
-      }<br><br>
-      
-    li a:hover {<br>
-        background-color: rgb(198, 153, 55);<br>
-        color: rgb(41, 28, 48);<br>
-        border:1px solid rgb(41, 28, 48);<br>
-      }<br><br>
-      
-    .active {<br>
-        background-color: rgb(198, 153, 55);<br>
-        color: rgb(41, 28, 48);<br>
-        border:1px solid rgb(41, 28, 48);<br>
-        } */<br><br>
-    
-    /* Sections */<br>
-    body {<br>
-      background-color: rgb(8, 93, 69);<br>
-      color: rgb(198, 153, 55);<br>
-      font-family: garamond;<br>
-      text-align:center;<br>
-      font-size: 100%;<br>
-      margin-left: 5%;<br>
-      margin-right: 5%;<br>
-      }<br><br>
-    
-    .header {<br>
-      background-color: rgb(198, 153, 55);<br>
-      color: rgb(41, 28, 48);<br>
-      text-align: center;<br>
-      margin: auto;<br>
-      height: auto;<br>
-      padding: 2%;<br>
-      width: 80%;<br>
-    }<br><br>
-    
-    .code {<br>
-      background-color: rgb(74, 74, 74);<br>
-      color: rgb(255, 255, 255);<br>
-      text-align: left;<br>
-      margin-top: 1em;<br>
-      margin-bottom: 1em;<br>
-      margin-right: 1.5em;<br>
-      margin-left: 1.5em;<br>
-    }<br><br>
-    
-    .flex-container {<br>
-      display: flex;<br>
-      flex-direction: row;<br>
-      background-color: rgb(8, 93, 69);<br>
-    }<br><br>
-    
-    @media (max-width: 800px) {<br>
-      .flex-container {<br>
-        flex-direction: column;<br>
-      }<br>
+  p {
+      color: white;
+      font-family: leander;
+      font-size:1em;
+      }
+  
+  img {
+      width: 80%;      
+      height: auto;
+      align-self: auto;
+      }
+  
+  code {
+      background-color: rgb(74, 74, 74);
+      color: white;
+      font-family: monospace;
+      text-align:left;
+      font-size: 0.75em;
+  }
+  
+  /* Nav bar */
+  
+  #home {
+    background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/home.png');
+    width: 320px;
+    height: 240px;
+  }
+  
+  #home:hover {
+    background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/home-blank.png');
+  }
+  
+  #gallery {
+    background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/gallery.png');
+    width: 320px;
+    height: 240px;
+  }
+  
+  #gallery:hover {
+    background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/gallery-blank.png');
+  }
+  
+  #style-sheet {
+    background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/style-sheet.png');
+    width: 320px;
+    height: 240px;
+  }
+  
+  #style-sheet:hover {
+    background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/style-sheet-blank.png');
+  }
+  
+  #repository {
+    background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/repository.png');
+    width: 320px;
+    height: 240px;
+  }
+  
+  #repository:hover {
+    background-image: url('https://wren-nest.github.io/here-be-dragons/images/nav/repository-blank.png');
+  }
+  
+  /* Old nav bar */
+  /* ul {
+      list-style-type: none;
+      margin: 0;
+      width: 100%;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid rgb(41, 28, 48);
+      background-color: rgb(41, 28, 48);
     }
-</code></div>
+    
+    li {
+      float: left;
+      border-right:1px solid rgb(198, 153, 55);
+    }
+    
+    li:last-child {
+      border-right: none;
+    }
+    
+  li a {
+      display: block;
+      color: rgb(198, 153, 55);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      background-color: rgb(41, 28, 48);
+    }
+    
+  li a:hover {
+      background-color: rgb(198, 153, 55);
+      color: rgb(41, 28, 48);
+      border:1px solid rgb(41, 28, 48);
+    }
+    
+  .active {
+      background-color: rgb(198, 153, 55);
+      color: rgb(41, 28, 48);
+      border:1px solid rgb(41, 28, 48);
+      } */
+  
+  /* Sections */
+  body {
+    background-color: rgb(8, 93, 69);
+    color: rgb(198, 153, 55);
+    font-family: garamond;
+    text-align:center;
+    font-size: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+  
+  .header {
+    background-color: rgb(198, 153, 55);
+    color: rgb(41, 28, 48);
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1em;
+    height: auto;
+    padding: 1em;
+    width: 80%;
+  }
+  
+  .code {
+    background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);
+    text-align: left;
+    align-self: auto;
+    height: auto;
+    width: 80%;
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(8, 93, 69);
+  }
+  
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+</pre></code></div>
 </body>
 </html>
