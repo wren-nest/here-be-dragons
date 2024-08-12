@@ -171,3 +171,8 @@ body {
   background-color: rgb(8, 93, 69);
 }
 
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
